@@ -1,0 +1,100 @@
+img{
+    max-width: 100%;
+    padding-bottom: .5rem;
+    background-color: rgb(0, 168, 175);
+}
+.dog{
+    display: block;
+    margin: auto;
+}
+header img{
+    max-width: 13%;
+    margin: .25rem;
+}
+header>div{
+    display: inline-block;
+    width: 65%;
+    background-color: rgb(0, 174, 239);
+}
+header{
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: .10rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+nav>a{
+    padding: .5rem;
+    color: #fff;
+    background-color: rgb(46, 49, 146);
+}
+nav>a:hover{
+    background-color: rgb(0, 174, 239);
+    color: black
+}
+section{
+    background-color: rgb(0, 174, 239);
+    margin: 1rem;
+}
+.mywriting>ul{
+    margin: auto;
+    width: 40%;
+    padding-bottom: 1rem;
+}
+.skillsets>ul{
+    margin: 1rem;
+    padding-bottom: .5rem;
+}
+.personal>ul{
+    padding-bottom: .5rem;
+}
+h2{
+    text-align: center;
+    padding: .5rem;
+    background-color: rgb(46, 49, 146);
+    color: #fff;
+    width: 50%;
+    margin: auto;
+}
+h3{
+    text-align: center;
+}
+p{
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+body{
+    background-color: rgb(0, 168, 175);
+}
+@media (min-width: 1200px){
+    nav{
+        justify-content: center;
+    }
+    nav>a{
+        margin: 1rem;
+    }
+    body>img{
+        display: block;
+        margin: auto;
+    }
+    section{
+        max-width: 50rem;
+        margin: 2rem auto;
+    }
+    .skillsets>ul{
+        width: 40%;
+        margin: auto;
+        padding-top: 1rem;
+    }
+    .personal>ul{
+        margin: auto;
+        width: 70%;
+        padding-top: 1rem;
+    }
+    h2{
+        width: 20%;
+    }
+}
